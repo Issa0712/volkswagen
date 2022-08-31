@@ -199,6 +199,10 @@ header .logo
 
 }
 
+#discover ul{
+  display: flex;
+}
+
 .discover_container{
   padding: 50px;
 }
@@ -316,6 +320,7 @@ header .logo
 
 
 
+
 #carousel{
   padding: 40px 0;
   margin-bottom: 6rem;
@@ -364,6 +369,15 @@ header .logo
 #information p {
   margin-top: 2rem;
 }
+
+
+#firstName,
+#lastName,
+#subject{
+  color: #000;
+}
+
+
 
 .sponsers{
   margin-top: 10rem;
@@ -538,6 +552,10 @@ input[type=submit]:hover {
 
   #discover input{
     margin-left: 11rem;
+  }
+
+  #discover ul{
+    flex-direction: column;
   }
 
   .sponsers {
